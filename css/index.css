@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    display: border-box;
+}
+body {
+    font-family: roboto, sans-serif;
+    height: 100vh;
+}
+h1 {
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: 900;
+}
+h2 {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 900;
+}
+.header, .hero, .content, .quote, .action, .footer {
+        padding: 0 25%;
+}
+.header, .hero, .footer {
+    background-color:#1f2937;
+}
+.header, .header a, button, .hero, .footer {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+.header {
+    height: 52px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header li {
+    display: inline;
+    margin: 0 0 0 18px;
+}
+.logo {
+    color: #f9faf8;
+    font-size: 24px;
+    font-weight: 900;
+}
+.hero {
+    height: 475px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.hero-text {
+    width: 400px;
+}
+.hero-text p {
+    margin: 4px 0;
+}
+.image-box {
+    width: 500px;
+    height: 250px;
+    background: #c1c1c1;
+    text-align: center;
+    align-content: center;
+}
+button, .action {
+    background-color: #3882f6;
+}
+button {
+    border: 0;
+    border-radius: 5px;
+    padding: 9px 24px;
+}
+.content, .quote, .action-wrap {
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.content {
+    text-align: center;
+}
+.content h2 {
+    margin: 32px;
+}
+.image-wrap {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 18px;
+}
+.image-wrap .image-box {
+    height: 150px;
+    width: 150px;
+    border-radius: 8px;
+    border: 3px solid #3882f6;
+    background: #fff;
+}
+.quote {
+    background-color: #e5e7eb;
+}
+.quote {
+    font-size: 36px;
+    font-style: italic;
+}
+.source {
+    color: #1f2937;
+    font-size: 18px;
+    font-weight: 900;
+    font-style: normal;
+    margin: 0 0 0 auto;
+}
+.action {
+    margin: 0 auto;
+    display: flex;
+    justify-items: space-around;
+    align-items: center;
+    height: 100px;
+    padding: 40px;
+    width: 1050px;
+    border-radius: 12px;
+}
+.action-text {
+    width: 250px;
+}
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 18px;
+}
