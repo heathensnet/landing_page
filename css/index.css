@@ -98,7 +98,8 @@ button {
     background: #fff;
 }
 .image-pair {
-    text-align: center;
+    flex-direction: column;
+    alight-items: center;
 }
 .quote {
     background-color: #e5e7eb;
