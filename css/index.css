@@ -97,6 +97,9 @@ button {
     border: 3px solid #3882f6;
     background: #fff;
 }
+.image-pair {
+    text-align: center;
+}
 .quote {
     background-color: #e5e7eb;
 }
